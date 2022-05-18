@@ -1,0 +1,698 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$ref": "#/definitions/object_03",
+  "definitions": {
+    "object_01": {
+      "title": "CREATE_RULE",
+      "type": "object",
+      "required": [
+        "DONE",
+        "CANCEL",
+        "TRIGGERS",
+        "SELECT_TRIGGER",
+        "SELECT_TRIGGER2",
+        "TYPE_TRIGGER",
+        "RULE_NAME",
+        "STEP",
+        "SELECTED_TRIGGER",
+        "ACTIONS",
+        "ADD_ACTIONS",
+        "REVIEW_RULE",
+        "SELECT_ACTION",
+        "TYPE_ACTION",
+        "SEND_NOTIFICATION",
+        "SEND_MESSAGE",
+        "CREATE_TASK",
+        "BOOK_CALL",
+        "SELECT_NOTIFY",
+        "WRITE_MESSAGE_TEXT",
+        "WRITE_NOTIFICATION_TEXT",
+        "USER_OR_GROUPS",
+        "USER",
+        "GROUP",
+        "WRITE_DESCRIPTION_TEXT",
+        "SELECT_TECHNICIAN",
+        "SELECT_SUBJECT",
+        "TASK_DESCRIPTION_TEXT",
+        "MESSAGE_TO_TECHNICIAN",
+        "MESSAGE_FOR_MACHINE",
+        "RULE_SUMMARY",
+        "TASK_CREATOR",
+        "WHICH_OBJECT",
+        "MEDIUM",
+        "HIGH",
+        "LOW",
+        "DELETE",
+        "SAVE_SUB_TASK",
+        "ADD_SUB_TASK",
+        "SELECT_TASK_LEVEL",
+        "SELECT_OBJECT",
+        "SELECT_PRIORITY",
+        "TYPE_ASIGNE",
+        "ASSIGN_TASK_TO",
+        "TIMING",
+        "SUBTASKS",
+        "DELETE_SUB_TASK",
+        "HOW_LONG_TASK",
+        "NEXT",
+        "BACK",
+        "SEND_MESSAAGE",
+        "SUBJECTLIST",
+        "SELECT_SCHED",
+        "MACHINE_STOPS",
+        "ScehduleRow"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "DONE": {
+          "type": "string"
+        },
+        "CANCEL": {
+          "type": "string"
+        },
+        "TRIGGERS": {
+          "type": "string"
+        },
+        "SELECT_TRIGGER": {
+          "type": "string"
+        },
+        "SELECT_TRIGGER2": {
+          "type": "string"
+        },
+        "TYPE_TRIGGER": {
+          "type": "string"
+        },
+        "RULE_NAME": {
+          "type": "string"
+        },
+        "STEP": {
+          "type": "string"
+        },
+        "SELECTED_TRIGGER": {
+          "type": "string"
+        },
+        "ACTIONS": {
+          "type": "string"
+        },
+        "ADD_ACTIONS": {
+          "type": "string"
+        },
+        "REVIEW_RULE": {
+          "type": "string"
+        },
+        "SELECT_ACTION": {
+          "type": "string"
+        },
+        "TYPE_ACTION": {
+          "type": "string"
+        },
+        "SEND_NOTIFICATION": {
+          "type": "string"
+        },
+        "SEND_MESSAGE": {
+          "type": "string"
+        },
+        "CREATE_TASK": {
+          "type": "string"
+        },
+        "BOOK_CALL": {
+          "type": "string"
+        },
+        "SELECT_NOTIFY": {
+          "type": "string"
+        },
+        "WRITE_MESSAGE_TEXT": {
+          "type": "string"
+        },
+        "WRITE_NOTIFICATION_TEXT": {
+          "type": "string"
+        },
+        "USER_OR_GROUPS": {
+          "type": "string"
+        },
+        "USER": {
+          "type": "string"
+        },
+        "GROUP": {
+          "type": "string"
+        },
+        "WRITE_DESCRIPTION_TEXT": {
+          "type": "string"
+        },
+        "SELECT_TECHNICIAN": {
+          "type": "string"
+        },
+        "SELECT_SUBJECT": {
+          "type": "string"
+        },
+        "TASK_DESCRIPTION_TEXT": {
+          "type": "string"
+        },
+        "MESSAGE_TO_TECHNICIAN": {
+          "type": "string"
+        },
+        "MESSAGE_FOR_MACHINE": {
+          "type": "string"
+        },
+        "RULE_SUMMARY": {
+          "type": "string"
+        },
+        "TASK_CREATOR": {
+          "type": "string"
+        },
+        "WHICH_OBJECT": {
+          "type": "string"
+        },
+        "MEDIUM": {
+          "type": "string"
+        },
+        "HIGH": {
+          "type": "string"
+        },
+        "LOW": {
+          "type": "string"
+        },
+        "DELETE": {
+          "type": "string"
+        },
+        "SAVE_SUB_TASK": {
+          "type": "string"
+        },
+        "ADD_SUB_TASK": {
+          "type": "string"
+        },
+        "SELECT_TASK_LEVEL": {
+          "type": "string"
+        },
+        "SELECT_OBJECT": {
+          "type": "string"
+        },
+        "SELECT_PRIORITY": {
+          "type": "string"
+        },
+        "TYPE_ASIGNE": {
+          "type": "string"
+        },
+        "ASSIGN_TASK_TO": {
+          "type": "string"
+        },
+        "TIMING": {
+          "type": "string"
+        },
+        "SUBTASKS": {
+          "type": "string"
+        },
+        "DELETE_SUB_TASK": {
+          "type": "string"
+        },
+        "HOW_LONG_TASK": {
+          "type": "string"
+        },
+        "NEXT": {
+          "type": "string"
+        },
+        "BACK": {
+          "type": "string"
+        },
+        "SEND_MESSAAGE": {
+          "title": "SEND_MESSAAGE",
+          "type": "object",
+          "required": [
+            "DEPARTMENT",
+            "LINE",
+            "GROUP",
+            "SELECT_MACHINES",
+            "GROUP_BY",
+            "WRITE_MESSAGE",
+            "MESSAGE_TEXT"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "DEPARTMENT": {
+              "type": "string"
+            },
+            "LINE": {
+              "type": "string"
+            },
+            "GROUP": {
+              "type": "string"
+            },
+            "SELECT_MACHINES": {
+              "type": "string"
+            },
+            "GROUP_BY": {
+              "type": "string"
+            },
+            "WRITE_MESSAGE": {
+              "type": "string"
+            },
+            "MESSAGE_TEXT": {
+              "type": "string"
+            }
+          }
+        },
+        "SUBJECTLIST": {
+          "title": "SUBJECTLIST",
+          "type": "object",
+          "required": [
+            "TYPE"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "TYPE": {
+              "type": "string"
+            }
+          }
+        },
+        "SELECT_SCHED": {
+          "title": "SELECT_SCHED",
+          "type": "object",
+          "required": [
+            "TRIGGER",
+            "INTERVAL",
+            "MONTHLY",
+            "DAILY",
+            "WEEKLY",
+            "MONTH",
+            "DAY",
+            "WEEK",
+            "EVERY",
+            "AT",
+            "ON",
+            "NOTE"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "TRIGGER": {
+              "type": "string"
+            },
+            "INTERVAL": {
+              "type": "string"
+            },
+            "MONTHLY": {
+              "type": "string"
+            },
+            "DAILY": {
+              "type": "string"
+            },
+            "WEEKLY": {
+              "type": "string"
+            },
+            "MONTH": {
+              "type": "string"
+            },
+            "DAY": {
+              "type": "string"
+            },
+            "WEEK": {
+              "type": "string"
+            },
+            "EVERY": {
+              "type": "string"
+            },
+            "AT": {
+              "type": "string"
+            },
+            "ON": {
+              "type": "string"
+            },
+            "NOTE": {
+              "type": "string"
+            }
+          }
+        },
+        "MACHINE_STOPS": {
+          "title": "MACHINE_STOPS",
+          "type": "object",
+          "required": [
+            "TRIGGER",
+            "STOP_CAUSES",
+            "STOP_CAUSES_GROUP",
+            "SEARCH"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "TRIGGER": {
+              "type": "string"
+            },
+            "STOP_CAUSES": {
+              "type": "string"
+            },
+            "STOP_CAUSES_GROUP": {
+              "type": "string"
+            },
+            "SEARCH": {
+              "type": "string"
+            }
+          }
+        },
+        "ScehduleRow": {
+          "title": "ScehduleRow",
+          "type": "object",
+          "required": [
+            "SUNDAY",
+            "MONDAY",
+            "TUESDAY",
+            "WEDNESDAY",
+            "THURSDAY",
+            "FRIDAY",
+            "SATURDAY",
+            "MONTHLY",
+            "DAILY",
+            "WEEKLY",
+            "WHEN_MACHINE_STOPS",
+            "AT_SCHED_INTERVALS",
+            "ON"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "SUNDAY": {
+              "type": "string"
+            },
+            "MONDAY": {
+              "type": "string"
+            },
+            "TUESDAY": {
+              "type": "string"
+            },
+            "WEDNESDAY": {
+              "type": "string"
+            },
+            "THURSDAY": {
+              "type": "string"
+            },
+            "FRIDAY": {
+              "type": "string"
+            },
+            "SATURDAY": {
+              "type": "string"
+            },
+            "MONTHLY": {
+              "type": "string"
+            },
+            "DAILY": {
+              "type": "string"
+            },
+            "WEEKLY": {
+              "type": "string"
+            },
+            "WHEN_MACHINE_STOPS": {
+              "type": "string"
+            },
+            "AT_SCHED_INTERVALS": {
+              "type": "string"
+            },
+            "ON": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "object_02": {
+      "title": "RulesContainer",
+      "type": "object",
+      "required": [
+        "Title",
+        "SearchRules",
+        "CreateRule",
+        "ACTIVE",
+        "FILTER",
+        "CARD",
+        "TABLE",
+        "CREATE_RULE"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "Title": {
+          "type": "string"
+        },
+        "SearchRules": {
+          "type": "string"
+        },
+        "CreateRule": {
+          "type": "string"
+        },
+        "ACTIVE": {
+          "type": "string"
+        },
+        "FILTER": {
+          "title": "FILTER",
+          "type": "object",
+          "required": [
+            "FILTER_BY",
+            "SORTED_BY",
+            "GROUPED_BY",
+            "NONE",
+            "ALL",
+            "TIME_TRIGGER_RULES",
+            "MACHINE_STOPS_RULES",
+            "CREATED_BY_ME",
+            "NOT_CREATED_BY_ME",
+            "LAST_UPDATED",
+            "DATE_CREATED",
+            "ALPHABET",
+            "ACTIVE_FIRST",
+            "LAST_FIRED"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "FILTER_BY": {
+              "type": "string"
+            },
+            "SORTED_BY": {
+              "type": "string"
+            },
+            "GROUPED_BY": {
+              "type": "string"
+            },
+            "NONE": {
+              "type": "string"
+            },
+            "ALL": {
+              "type": "string"
+            },
+            "TIME_TRIGGER_RULES": {
+              "type": "string"
+            },
+            "MACHINE_STOPS_RULES": {
+              "type": "string"
+            },
+            "CREATED_BY_ME": {
+              "type": "string"
+            },
+            "NOT_CREATED_BY_ME": {
+              "type": "string"
+            },
+            "LAST_UPDATED": {
+              "type": "string"
+            },
+            "DATE_CREATED": {
+              "type": "string"
+            },
+            "ALPHABET": {
+              "type": "string"
+            },
+            "ACTIVE_FIRST": {
+              "type": "string"
+            },
+            "LAST_FIRED": {
+              "type": "string"
+            }
+          }
+        },
+        "CARD": {
+          "title": "CARD",
+          "type": "object",
+          "required": [
+            "EDIT",
+            "DELETE",
+            "CANCEL",
+            "DUPLICATE",
+            "NEW",
+            "ARE_YOU_SURE_DELETE",
+            "UPDATED",
+            "FEW_SECONDS_AGO",
+            "LESS_THAN_MIN",
+            "MIN_AGO",
+            "HOUR_AGO",
+            "WEEK_AGO",
+            "TWO_WEEKS_AGO",
+            "THREE_WEEKS_AGO",
+            "DAYS_AGO",
+            "MONTHS_AGO"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "EDIT": {
+              "type": "string"
+            },
+            "DELETE": {
+              "type": "string"
+            },
+            "CANCEL": {
+              "type": "string"
+            },
+            "DUPLICATE": {
+              "type": "string"
+            },
+            "NEW": {
+              "type": "string"
+            },
+            "ARE_YOU_SURE_DELETE": {
+              "type": "string"
+            },
+            "UPDATED": {
+              "type": "string"
+            },
+            "FEW_SECONDS_AGO": {
+              "type": "string"
+            },
+            "LESS_THAN_MIN": {
+              "type": "string"
+            },
+            "MIN_AGO": {
+              "type": "string"
+            },
+            "HOUR_AGO": {
+              "type": "string"
+            },
+            "WEEK_AGO": {
+              "type": "string"
+            },
+            "TWO_WEEKS_AGO": {
+              "type": "string"
+            },
+            "THREE_WEEKS_AGO": {
+              "type": "string"
+            },
+            "DAYS_AGO": {
+              "type": "string"
+            },
+            "MONTHS_AGO": {
+              "type": "string"
+            }
+          }
+        },
+        "TABLE": {
+          "title": "TABLE",
+          "type": "object",
+          "required": [
+            "TITLE",
+            "STATUS",
+            "RULE",
+            "CREATOR",
+            "LASTUPDATE",
+            "SELECTED_RULES_TO_DEL",
+            "DELETE"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "TITLE": {
+              "type": "string"
+            },
+            "STATUS": {
+              "type": "string"
+            },
+            "RULE": {
+              "type": "string"
+            },
+            "CREATOR": {
+              "type": "string"
+            },
+            "LASTUPDATE": {
+              "type": "string"
+            },
+            "SELECTED_RULES_TO_DEL": {
+              "type": "string"
+            },
+            "DELETE": {
+              "type": "string"
+            }
+          }
+        },
+        "CREATE_RULE": {
+          "$ref": "#/definitions/object_01"
+        }
+      }
+    },
+    "object_03": {
+      "type": "object",
+      "required": [
+        "RulesContainer",
+        "TargetsManagement"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "RulesContainer": {
+          "$ref": "#/definitions/object_02"
+        },
+        "TargetsManagement": {
+          "title": "TargetsManagement",
+          "type": "object",
+          "required": [
+            "Title",
+            "Subtitle",
+            "ResetTargets",
+            "ResetTooltip",
+            "ResetModal",
+            "Levels",
+            "Fixed",
+            "FixedTooltip",
+            "Reset",
+            "Cancel",
+            "ChangesSaved",
+            "SavingChanges",
+            "ColumnSelectorTitle",
+            "ColumnSelectorSubtitle"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "Title": {
+              "type": "string"
+            },
+            "Subtitle": {
+              "type": "string"
+            },
+            "ResetTargets": {
+              "type": "string"
+            },
+            "ResetTooltip": {
+              "type": "string"
+            },
+            "ResetModal": {
+              "type": "string"
+            },
+            "Levels": {
+              "type": "string"
+            },
+            "Fixed": {
+              "type": "string"
+            },
+            "FixedTooltip": {
+              "type": "string"
+            },
+            "Reset": {
+              "type": "string"
+            },
+            "Cancel": {
+              "type": "string"
+            },
+            "ChangesSaved": {
+              "type": "string"
+            },
+            "SavingChanges": {
+              "type": "string"
+            },
+            "ColumnSelectorTitle": {
+              "type": "string"
+            },
+            "ColumnSelectorSubtitle": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

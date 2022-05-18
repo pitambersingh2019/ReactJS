@@ -1,0 +1,49 @@
+/* Track */
+.reactTable::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.reactTable::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  margin: 5px;
+}
+.fixedlist {
+  overflow-x: scroll;
+}
+
+.reactTable::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #e3e3e3;
+}
+
+/* Handle on hover */
+.reactTable::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.reactTableSelection::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.reactTableSelection::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+.List {
+  border: 1px solid #e3e3e3;
+  max-width: 100%;
+}
+
+.ListItem,
+.ListItemEven,
+.ListItemOdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ListItemEven {
+  background-color: #e3e3e3;
+}

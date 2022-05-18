@@ -1,0 +1,171 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(../../fonts/proximanova/proximanova-regular.a7942249.woff) format("woff");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(../../fonts/proximanova/proximanova-semibold.46e3f047.woff) format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(../../fonts/proximanova/proximanova-regular-italic.053a1112.woff) format("woff");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(../../fonts/proximanova/proximanova-semibold-italic.660bf63e.woff) format("woff");
+    font-weight: 700;
+    font-style: italic;
+}
+body, p, h2, button, input#standard-bare {
+    font-family: 'ProximaNova' !important;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    max-width: 305px !important;
+    min-width: 305px;
+}
+.MuiInputBase-formControl {
+    margin-bottom: 20px;
+}
+input#standard-bare {
+    font-size: 16px;
+}
+
+.activateJobTable thead tr th {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 15px;
+    height: 48px;
+    vertical-align: middle;
+    color: #050709;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    white-space: nowrap;
+}
+.activateJobTable tbody tr td {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+    vertical-align: middle;
+    height: 46px;
+    color: #050709;
+}
+.padd_15 {
+    padding: 15px;
+}
+.Dialog_body {
+    padding: 0 15px 21px !important;
+}
+.DialogActions {
+    padding-bottom: 15px !important;
+}
+#alert-dialog-title {
+    font-size: 18px;
+    padding: 0px 15px 13px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #101010;
+    font-weight: 600;
+}
+#alert-dialog-title img {
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 5px !important;
+}
+.Dialog_body p {
+    font-size: 14px;
+    white-space: normal;
+    max-width: 270px;
+    line-height: 1.43;
+    color: #101010;
+}
+.DialogActions {
+    justify-content: center !important;
+}
+.DialogActions .btn.primary {
+    background-color: #0080ff;
+    border-color: #0080ff;
+    color: #fff;
+    padding: 6px 18px;
+    height: 30px;
+    align-items: center;
+    font-size: 12px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.css-zw3mfo-MuiModal-root-MuiDialog-root {
+    z-index: 99999 !important;
+}
+.activateJobTableDiv {
+    max-height: 535px;
+    overflow: auto;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.activateJobTable {
+    display: block !important;
+    border: none !important;
+}
+.activateJobTable thead, .activateJobTable tbody {
+    display: block;
+}
+.activateJobTable > thead > tr, .activateJobTable > tbody > tr {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.activateJobTable > thead > tr > th, .activateJobTable > tbody > tr > td {
+    display: flex;
+    align-items: center;
+    flex-direction: inherit;
+    font-family: 'ProximaNova' !important;
+}
+.activateJobTable > thead > tr > th:nth-child(1), .activateJobTable > tbody > tr > td:nth-child(1) {
+   width:25%; 
+}
+.activateJobTable > thead > tr > th:nth-child(2), .activateJobTable > tbody > tr > td:nth-child(2) {
+   width:20%; 
+}
+.activateJobTable > thead > tr > th:nth-child(3), .activateJobTable > tbody > tr > td:nth-child(3) {
+   width:45%; 
+}
+.activateJobTable > thead > tr > th:nth-child(4), .activateJobTable > tbody > tr > td:nth-child(4) {
+    width: 10%;
+    justify-content: center;
+    min-width: 125px;
+}
+.activateJobTable > tbody > tr {
+    margin: 0px 0 15px;
+    padding: 0;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #fafafa; 
+}
+tr.MuiTableRow-root.MaterialsSearchrow {
+    background-color: #fff !important;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 8%);
+    border: solid 1px #e4e7eb;
+}
+.activateJobTable > tbody > tr > td, .activateJobTable > thead > tr > th {
+    padding: 5px 15px;
+    border: none;
+    height: 56px;
+}
+.text-right{
+    text-align: right;
+}
+img.closeIconHeader {
+    margin: 12px 12px 4px;
+    width: 16px;
+    position: relative;
+    z-index: 1;
+    opacity: 1;   
+    cursor: pointer;
+}
